@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/polaris_form_app/static/css/main.b63ca400.css",
+    "main.js": "/polaris_form_app/static/js/main.5dcea997.js",
+    "index.html": "/polaris_form_app/index.html",
+    "main.b63ca400.css.map": "/polaris_form_app/static/css/main.b63ca400.css.map",
+    "main.5dcea997.js.map": "/polaris_form_app/static/js/main.5dcea997.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b63ca400.css",
+    "static/js/main.5dcea997.js"
+  ]
+}

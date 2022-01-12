@@ -1,0 +1,77 @@
+.main-cont{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(184, 198, 236) 0%, rgb(112, 150, 255) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-cont{
+    display: flex;
+    justify-content: center;
+    height: 73vh;
+    width: 20vw;
+    box-shadow: 0px 0px 9px rgb(64, 76, 114);
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+    padding-top: 20px;
+    border-radius: 3px;
+    padding: 30px;
+    box-sizing: content-box;
+}
+
+.Polaris-FormLayout{
+    width: 350px;
+}
+
+.error{
+    transition: 0.4s;
+    display: block;
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.error-show{
+    max-height: 55px;
+}
+
+#but{
+    margin-left: 250px;
+}
+
+.card-container{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    overflow: auto;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-image: linear-gradient(to bottom, rgb(184, 198, 236) 0%, rgb(112, 150, 255) 100%);
+}
+
+.address{
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.address:hover{
+    font-weight: bold;
+}
+
+.Polaris-Card{
+    width: 22.5vw;
+    height: 37vh;
+    transition: 0.3s;
+}
+
+.Polaris-Card:hover{
+    box-shadow: 0px 0px 9px rgb(64, 76, 114);
+    transform: translateY(-2px);
+}
+
+.user-card{
+    display: flex;
+    height: 100%;
+}
